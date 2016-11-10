@@ -1,0 +1,21 @@
+
+
+
+Version 4 :24/10/16 
+Ironically, created the Changelog.
+Created Navigation Script
+Created Currency Script
+Added Navigation Buttons
+Added Golfclub and Skill Buttons
+Made Golf/Skills tab appear/disappear upon usage of buttons.
+Nice produced a MUCH simpler way of switching tabs in Character Screen.
+Added in Exit Screen Confirm
+Added exit game code
+
+
+
+
+Version 7 :07/11/16
+Added in score counter
+Dwelled on why we have a Changelog that noone updates.
+

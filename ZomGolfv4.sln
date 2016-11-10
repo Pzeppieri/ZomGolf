@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{A9083D0B-88EF-DED6-62AB-66EB2950DB99}") = "ZomGolfv4", "Assembly-CSharp.csproj", "{A6A89ABA-F709-37BF-0DFD-357F9B2F007E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6A89ABA-F709-37BF-0DFD-357F9B2F007E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A89ABA-F709-37BF-0DFD-357F9B2F007E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A89ABA-F709-37BF-0DFD-357F9B2F007E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A89ABA-F709-37BF-0DFD-357F9B2F007E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
