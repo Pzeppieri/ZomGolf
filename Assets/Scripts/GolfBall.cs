@@ -9,6 +9,8 @@ public class GolfBall : MonoBehaviour
 
     //This is never called, so I commented it out 7/11/16
     //private float TimeTaken;
+    private GameManager gameManager;
+
 
     private Vector3 Distance;
     private Vector3 SpawnPoint = new Vector3(0.14f, 1.25f, -4.5f);
@@ -18,7 +20,10 @@ public class GolfBall : MonoBehaviour
     private float power = 500f;
     public GameObject GolfBalls;
 
-
+    void Start()
+    {
+        gameManager = GameObject.FindWithTag("GameController").GetComponent<GameManager>();
+    }
     #region ZombieBeatenText
     //Counter of the zombs.
     public int Score;
@@ -31,7 +36,7 @@ public class GolfBall : MonoBehaviour
 
     void Update()
     {
-        Scoretext.text = Score+" beaten".ToString();
+      //  Scoretext.text = Score+" beaten".ToString();
 
     }
 
@@ -86,7 +91,9 @@ public class GolfBall : MonoBehaviour
             //Destroy hit object.
            Destroy(other.gameObject);
             //Increase score
-            Score=Score+1;
+          //  Score=Score+1;
+            gameManager.addScore();
+
         }
 
 
